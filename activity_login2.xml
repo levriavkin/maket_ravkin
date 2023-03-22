@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <TableRow>
+        <TextView
+
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:width="285dp"
+            android:backgroundTint="@color/teal_200"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:text="Password"
+            android:textStyle="bold" />
+
+        <EditText
+            android:backgroundTint="@color/teal_200"
+            android:layout_column="1"
+        android:width="285dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+
+            android:layout_weight="1"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttun1"
+            android:onClick="next"
+            android:text="Отправить" />
+    </TableRow>
+
+</TableLayout>
